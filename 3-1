@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main (void)
+{
+  int num;
+  printf("请输入一个整数："）；
+  scanf（“%d”，&num）；
+  if （num>10）
+    if(num>99)
+      if(num>999)
+        puts("该整数大于等于1000."）；
+      else
+        puts("该整数大于等于100且小于等于999."）；
+      else
+        puts("该整数大于等于10且小于等于99."）；
+      else
+        puts("该整数小于10.\n"）；
+  return 0;
+  }
+  
+  
+ #include <stdio.h>
+int main (void)
+{
+  int num;
+  printf("请输入一个整数："）；
+  scanf（“%d”，&num）；
+  if (num>10) {
+    if (num>99) {
+      if (num>999)
+        puts("该整数大于等于1000."）；
+      else
+        puts("该整数大于等于100且小于等于999."）；
+ }    else { 
+        puts("该整数大于等于10且小于等于99."）；
+ }    else {
+        puts("该整数小于10.\n"）；
+ }
+   return 0;
+   }
